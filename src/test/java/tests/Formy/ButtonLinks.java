@@ -25,7 +25,7 @@ public class ButtonLinks {
 
             FormyHomePage formyHomePage = new FormyHomePage();
             Driver.get().get(formyHomePage.url);
-
+            //commenting out in ButtonLinks.java
             clickOnTheDesiredLink1("Buttons");
             Assert.assertEquals(Driver.get().getCurrentUrl().contains("buttons"),true);
             Driver.get().close();
